@@ -256,6 +256,8 @@ namespace Lyricify.Lyrics.Helpers.Optimization
             "厂牌",
             "分轨",
             "贴混",
+            "古琴",
+            "调教",
             "单簧管",
             "萨克斯",
             "打击乐",
