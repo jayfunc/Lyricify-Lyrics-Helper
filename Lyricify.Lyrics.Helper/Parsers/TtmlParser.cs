@@ -194,6 +194,17 @@ namespace Lyricify.Lyrics.Parsers
             var hit = agents.Find(a => a.Id == agentId);
             if (hit == null) return LyricsAlignment.Unspecified;
 
+            var typeGroups = agents.GroupBy(a => a.Type, StringComparer.OrdinalIgnoreCase).ToList();
+            if (agents.Count == 2
+                && typeGroups.Count == 2
+                && typeGroups.All(g => g.Count() == 1)
+                && typeGroups.Any(g => string.Equals(g.Key, "person", StringComparison.OrdinalIgnoreCase)))
+            {
+                return string.Equals(hit.Type, "person", StringComparison.OrdinalIgnoreCase)
+                    ? LyricsAlignment.Left
+                    : LyricsAlignment.Right;
+            }
+
             bool left;
             if (hit.Type == "person") left = persons.IndexOf(hit) % 2 == 0;
             else if (hit.Type == "group") left = groups.IndexOf(hit) % 2 == 0;
