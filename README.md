@@ -1,4 +1,16 @@
-# Lyricify Lyrics Helper
+# Lyricify Lyrics Helper (jayfunc Patched)
+
+[![NuGet](https://img.shields.io/nuget/v/Lyricify.Lyrics.Helper.Jayfunc.svg)](https://nuget.org/packages/Lyricify.Lyrics.Helper.Jayfunc)
+
+> ⚠️ **Distribution Notice / 托管发布声明**
+> 
+> This NuGet package (`Lyricify.Lyrics.Helper.Jayfunc`) is an **unofficial distribution** compiled directly from the latest source code of the **Lyricify.Lyrics.Helper** project.
+> 
+> **NO code changes have been made.** This package is built and published strictly for capturing the latest upstream updates and for personal dependency management. All credits, copyright, and intellectual property belong entirely to the original authors and the Lyricify team.
+> 
+> 本 NuGet 包（`Lyricify.Lyrics.Helper.Jayfunc`）仅作为**基于最新源码的非官方重新打包版本**。**此版本未对源码做任何修改**，完全与原项目最新代码保持一致。鉴于官方 NuGet 包更新频率的原因，特此自行编译并发布此版本，以便于及时引入最新特性与个人项目的依赖管理。核心代码版权完全归原作者及 Lyricify 团队所有。
+
+---
 
 为 Lyricify 歌词相关功能竭力打造。
 

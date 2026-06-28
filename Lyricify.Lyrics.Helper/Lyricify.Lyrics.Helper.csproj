@@ -12,12 +12,14 @@
 		<Authors>XY Wang</Authors>
 		<Company>WXRIW</Company>
 		<Title>Lyricify Lyrics Helper</Title>
-		<PackageProjectUrl>https://github.com/WXRIW/Lyricify-Lyrics-Helper</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/jayfunc/Lyricify-Lyrics-Helper</PackageProjectUrl>
 		<Description>Lyrics toolset for Lyricify. With lyrics parsers, generators, decrypters, searchers and useful helpers.</Description>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<PackageId>Lyricify.Lyrics.Helper.Jayfunc</PackageId>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -36,6 +38,10 @@
 		<PackageReference Include="CHTCHSConv" Version="1.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="SharpZipLib" Version="1.4.2" />
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 	<ItemGroup>
