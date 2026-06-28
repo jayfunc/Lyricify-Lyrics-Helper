@@ -27,7 +27,7 @@
 		<Version>0.1.4</Version>
 		<Copyright></Copyright>
 		<PackageIcon>icon.png</PackageIcon>
-		<RepositoryUrl>https://github.com/WXRIW/Lyricify-Lyrics-Helper/</RepositoryUrl>
+		<RepositoryUrl>https://github.com/jayfunc/Lyricify-Lyrics-Helper/</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>lyrics;chinese;convert;search</PackageTags>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
